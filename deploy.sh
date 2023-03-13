@@ -10,7 +10,7 @@ sudo npm install -g pm2
 pm2 stop simple_app
 
 # change directory into folder where application is downloaded
-cd DevOps-CA-V2/
+cd DevOps-CA/
 
 # Install application dependancies
 npm install
