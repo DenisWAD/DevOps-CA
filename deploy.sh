@@ -15,8 +15,8 @@ cd DevOps-CA/
 # Install application dependancies
 npm install
 
-# echo $PRIVATE_KEY > privatekey.pem
-# echo $SERVER > server.crt
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
 
 # Start the application with the process name example_app using pm2
 pm2 start ./bin/www --name simple_app
